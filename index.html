@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">PORTFOLIO</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#Education">EDUCATION</a></li>
+                    <li><a href="#Experience">EXPERIENCE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">PORTFOLIO</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon " onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                    <li><a href="#Education" onclick="toggleMenu()">EDUCATION</a></li>
+                    <li><a href="#Experience" onclick="toggleMenu()">EXPERIENCE</a></li>
+                    <li><a href="#contacte" onclick="toggleMenu()">CONTACT</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile.png" alt="Varshini Matta">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Varshini Matta</h1>
+                <p class="section__text__p2">Engineering Student</p>
+                <div class="btn-container">
+                    <button
+                        class="btn btn-color-2"
+                        onclick="window.open('./assets/Varshini_Matta_Resume.pdf')">
+                        DOWNLOAD CV
+                    </button>
+                </div>
+                <div class="social-containers">
+                    <img src="./assets/linkedin.png" 
+                    alt="My LinkdIn profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/varshini-matta-3a9ab9263/'"
+                    />
+                    <img src="./assets/github.png" 
+                    alt="My GitHub profile" 
+                    class="icon" 
+                    onclick="location.href='https://github.com/'"
+                    />
+                </div>
+            </div>
+        </section>
+        <section  id="about">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum">Summary</h2>
+                    <p class="about_decription"><br><br><br>Passionate college student with a strong desire to 
+                         gain practical experience through an internship opportunity. Proactive and motivated,
+                        I am eager to contribute my skills and learn from professionals in the industry.
+                        With a solid academic foundation and a drive for excellence, I am committed to 
+                        making a meaningful impact in the field. As I continue to enhance my skills and knowledge,
+                        I am now seeking an internship opportunity that will allow me to further expand my 
+                        technical capabilities, contribute to impactful projects,and learn from industry 
+                        professionals. I am eager to bring my enthusiasm, dedication,
+                        and innovative thinking to a dynamic team and make a tangible impact in the field.</p>
+                </div>
+                        <div class="about_info" >
+                            <h3 class="basic">Basic Information</h3>
+                            <p><br><br><br>AGE: 19 <br><br>
+    
+                                EMAIL: varshinics.m@gmail.com <br><br>
+                                
+                                GRADUATION YEAR: 2025 <br><br>
+                                
+                                LOCATION: Hyderabad,Telangana, India <br><br>
+                                
+                                LANGUAGES: English, Hindi, Telugu, French <br><br>
+                                
+                                CITIZENSHIP: Indian <br>
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section class="section__text" id="skills">
+            <h2 class="title">EXPLORE MY</h2>
+            <span class="title2">Skills</span><br><br>
+
+            <div class="skills__container">
+                <div class="skill__content">
+                    <h3 class="skill__title">
+                        <i class="ri-code-s-slash-line"></i>PROGRAMMING LANGUAGES
+                    </h3>
+                    <div class="skill_info">
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/python.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/r.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">R</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/sql-server.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">SQL</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/php.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">PHP</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-mongodb-48.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Mongodb</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-matlab-48.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Matlab</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-unity-50.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Unity</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/html-5.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/css-3.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/js.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/database-storage.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">DSA</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill__content">
+                    <h3 class="skill__title">
+                        <i class="ri-code-s-slash-line"></i><BR><BR><BR></BR></BR></BR>SOFTWARE
+                    </h3>
+                    <div class="skill_info">
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-arduino-48.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Arduino</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-linux-48.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Linux</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/icons8-windows-48.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Windows</h3>
+                            
+                        </div>
+
+                        <div class="skill__data">
+                            <div class="skill__blob">
+                                <img src="./assets/584830fecef1014c0b5e4aa2.png" alt="skill image">
+                            </div>
+                            <h3 class="skills__name">Rasberry pi</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+        <section class="projects section" id="projects">
+            <h2 class="title"><br><br>PROJECTS <br><br>
+            </h2>
+        </section>
+        
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum">AR SMART INDOOR NAVIGATION  (Award wining project <img src="./assets/medal.png" alt="pic1">)</h2>
+                    <p class="about_decription"><br><br><br>Large educational institutions with many 
+                        campuses, buildings, and passages urgently need a tool for ensuring
+                         convenient movement around the territory. The location-based 
+                         online campus navigation system can assist in solving this problem. It simplifies the search
+                          of the necessary room, prevents lateness, and improves everyday life both for students and teachers.
+                          Navigine provides the solution for indoor positioning and navigation 
+                          inside university premises.
+                         <br>Technology: Unity, Augmented Reality</p>
+                </div>
+                        <div class="about_info" >
+                            
+                            <p><br><br><img src="./assets/nav.jpg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+       
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum"> AI CONTROLLED PROSTHETIC HAND (Award wining project <img src="./assets/medal.png" alt="pic1">)
+                    </h2>
+                    <p class="about_decription"><br><br><br>The ability to perceive the shape and motion of hands can be a vital component in improving the user experience across a variety of technological domains and platforms. For example, it can form the basis for sign language understanding and hand gesture control, and can also enable the overlay of digital content and information on top of the physical world in augmented reality. While coming naturally to people, robust real-time hand perception is a decidedly challenging computer vision task, as hands often occlude themselves or each other (e.g. finger/palm occlusions and hand shakes)
+                         and lack high contrast. <br>Technology: Python, Arduino, PyCharm, OpenCV</p>
+                </div>
+                        <div class="about_info" >
+                            
+                            <p><br><br><br><img src="./assets/ai.jpg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum">SMART ATTENDENCE SYSTEM</h2>
+                    <p class="about_decription"><br><br><br>Guaranteeing the safety of its
+                         students not only brings peace of mind to the school management and 
+                         students’ parents, it also builds the institution’s goodwill in the
+                          market. When people know that a particular school is proactively concerned about the safety of its students, more 
+                        parents are willing to enrol their children into that institution.
+                        <br>Technology: Python,Opencv,AI
+                    </p>
+                </div>
+                        <div class="about_info1" >
+                            
+                            <p><img src="./assets/att.jpg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum">COST-EFFECTIVE VR EXPERIENCE AND APPLIANCE CONTROL
+                    </h2>
+                    <p class="about_decription"><br><br><br>In the education process,
+                         students face problems with understanding due to the complexity, 
+                         necessity of abstract thinking and concepts. More and more 
+                         educational centres around the world have started to introduce 
+                         powerful new technology-based tools that help meet the needs 
+                         of the diverse student population. Over the last several years,
+                          virtual reality (VR) has moved from being the purview of gaming to professional development. It plays an important role in teaching process, providing an interesting and engaging way of acquiring information. What follows is an overview of the big trend, 
+                        opportunities and concerns associated with VR in education.
+                        <br>Technology: Python, Arduino
+                    </p>
+                </div>
+                        <div class="about_info1" >
+                            
+                            <p><br><br><br><img src="./assets/vr.jpeg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum">POTHOLE DETECTOR
+                    </h2>
+                    <p class="about_decription"><br><br><br>Among various pavement failures, numerous research can be found on pothole detection as they are injurious to automobiles and passengers that may turn into an accident. This work is intended to explore the potential of deep learning models and deploy three superlative deep learning models on edge devices for pothole detection. In this work, we have exploited the AI kit (OAK-D) on a single-board computer (Arduino Uno) as an edge platform for pothole detection 
+                        <br>Technology: Technology: Arduino</p>
+                </div>
+                        <div class="about_info3" >
+                            
+                            <p><br><br><br><img src="./assets/pot.jpg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum"> NETFLIX CLONE WEBSITE
+                    </h2>
+                    <p class="about_decription"><br><br><br>Cloning also hints at reuse 
+                        opportunities that, if exploited systematically, might have
+                         positive impact on development and maintenance productivity.
+                          Unstable requirements and tight schedules pose unique challenges 
+                          for Web Application engineering that encourage cloning. 
+                          We are conducting a systematic study of cloning in Web Applications of different sizes, developed using a
+                         range of Web technologies, and serving diverse purposes.
+                    <br>Technology: HTML, CSS, Java
+                </p>
+                </div>
+                        <div class="about_info2" >
+                            
+                            <p><br><br><br><img src="./assets/clone.jpg" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section  id="about1">
+            <div class="section-container">
+                <div class="about__container" >
+                    <h2 class="sum"> GROUP DIVIDER APP
+                    </h2>
+                    <p class="about_decription"><br><br><br>Team Picker Wheel is a specialized random team generator that can produce random groups from a list of names. Download results in a CSV file or an image
+                        <br>Technology: Python
+                </p>
+                </div>
+                        <div class="about_info2" >
+                            
+                            <p><br><br><br><img src="./assets/group.png" alt="pic1">
+                            </p>
+                        </div>
+                
+            </div>
+            
+        </section>
+        <section class="qualification section" id="Education">
+            <h2 class="title"><br><br><br><br><br>EDUCATION</h2>
+        </section>
+        <section  id="about3">
+            
+            <div class="qualification__data">
+                <div>
+                    <h3 class="sum"><br><br><br> <img src="./assets/vnr.webp" class="log">VNR Vignana Jyothi Institute of Engineering & Technology <br>Hyderabad,India</h3>
+                    <span class="qual__subtitle">ELECTRONICS AND COMMUNICATION ENGINEERING</span>
+                        <div class="cla">
+                            <img src="./assets/calendar.png" class="log1">
+                            2021-2025
+                            <br><img src="./assets/result.png" class="log1">8.9/10
+                        </div>
+                </div>
+              
+            </div>
+            <div class="qualification__data">
+                <div><br><br>
+                    <h3 class="sum"> <img src="./assets/air.jpeg" class="log">AIR FORCE SCHOOL<br> 
+                        Pune,India </h3>
+                    <span class="qual__subtitle">12th</span>
+                        <div class="cla">
+                            <img src="./assets/calendar.png" class="log1">
+                            2019-2021
+                            <br><img src="./assets/result.png" class="log1">90%
+                        </div>
+                </div>
+                <div class="qualification__data">
+                    <div><br><br>
+                        <h3 class="qual__titile"> <img src="./assets/air.jpeg" class="log">AIR FORCE SCHOOL<br> 
+                            Pune,India</h3>
+                        <span class="qual__subtitle">10th </span>
+                            <div class="cla">
+                                <img src="./assets/calendar.png" class="log1">
+                                2019-2021
+                                <br><img src="./assets/result.png" class="log1">94%
+                            </div>
+                    </div>
+              
+            </div>
+            </section>
+            
+            <section class="qualification section" id="Experience">
+                <h2 class="title"><br><br><br><br><br>EXPERIENCE</h2>
+            </section>
+           
+            <section  id="about1">
+                <div class="section-container">
+                    <div class="about__container" >
+                        <h2 class="sum">CONVERGENCE 2k23<img src="./assets/medal.png" alt="pic1">
+                        </h2>
+                        <p class="about_decription"><br><br><br>secured 2nd position in Hardware Hackathon of Convergence 2K23, 
+                            the highly anticipated technical fest!I am incredibly proud of this achievement and grateful for the support 
+                            and opportunities that have led me to this moment. <br>PROJECT:PROSTHETIC HAND </p>
+                    </div>
+                            <div class="about_info" >
+                                
+                                <p><br><br><br><img src="./assets/con.jpg" alt="pic1">
+                                </p>
+                            </div>
+                    
+                </div>
+                
+            </section>
+            <section  id="about1">
+                <div class="section-container">
+                    <div class="about__container" >
+                        <h2 class="sum">SMART CAMPUS HACKATHON <img src="./assets/medal.png" alt="pic1"></h2>
+                        <p class="about_decription"><br><br><br>1st position in the Smart Campus Hackathon organized by the IOT Club, with none other than the esteemed executive 
+                            director of DRDO, Mr. Chatopadhayay, as the judge!This win in the Smart Campus Hackathon fuels my passion to continue exploring the realms of technology and further contribute to creating smarter, more efficient campuses. I am immensely proud of this accomplishment and excited 
+                            for the future possibilities it holds. Onward and upward! 🚀💡
+                            <br>PROJECT:AR INDOOR NAVIGATION
+                        </p>
+                    </div>
+                            <div class="about_info" >
+                                
+                                <p><img src="./assets/sch.jpg" alt="pic1">
+                                </p>
+                            </div>
+                    
+                </div>
+                
+            </section>
+            <section  id="about1">
+                <div class="section-container">
+                    <div class="about__container" >
+                        <h2 class="sum">COLLEGE INTERNSHIP
+                        </h2>
+                        <p class="about_decription"><br><br><br>During my internship, I aim to collaborate with experienced professionals in the field, working on cutting-edge projects that involve developing and implementing IoT solutions. I look forward to gaining hands-on experience in designing, prototyping, and troubleshooting IoT devices, as well as learning how to leverage data analytics and cloud computing to enhance the efficiency and functionality of IoT systems.
+
+                            Furthermore, VNRVJIET's renowned faculty and state-of-the-art facilities make it an ideal environment to explore the diverse applications of IoT in various sectors, from smart cities and healthcare to agriculture and industrial automation. I am eager to be a part of this transformative journey, contributing my skills and creativity to make a meaningful impact in the world of IoT.
+                            
+                            Ultimately, I believe this internship at VNRVJIET will not only enhance my technical abilities but also provide me with invaluable insights into the rapidly evolving IoT industry. I am ready to embrace challenges, embrace innovation, and collaborate with like-minded individuals to unlock the true potential of IoT for a connected and smarter future.
+                            <br>Technology: Python, Arduino,Unity
+                        </p>
+                    </div>
+                            <div class="about_info1" >
+                                
+                                <p><br><br><br><img src="./assets/vnr.webp" alt="pic1">
+                                </p>
+                            </div>
+                    
+                </div>
+                
+            </section>
+            <section id="contact">
+                <p class="section__text">Get in Touch</p>
+                <h1 class="title">Contact Me</h1>
+                <div class="contact-info-upper-container">
+                  <div class="contact-info-container">
+                    <img
+                      src="./assets/email.png"
+                      alt="Email icon"
+                      class="icon contact-icon email-icon"
+                    />
+                    <p><a href="mailto:varshinics.m@gmail.com">varshinics.m@gmail.com</a></p>
+                  </div>
+                  <div class="contact-info-container">
+                    <img
+                      src="./assets/linkedin1.png"
+                      alt="LinkedIn icon"
+                      class="icon contact-icon"
+                    />
+                    <p><a href="https://www.linkedin.com/in/varshini-matta-3a9ab9263/">LinkedIn</a></p>
+                  </div>
+                </div>
+              </section>
+              <footer>
+                <nav>
+                  <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#Education">EDUCATION</a></li>
+                        <li><a href="#Experience">EXPERIENCE</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <p>Copyright &#169; 2023 Varshini Matta. All Rights Reserved.</p>
+              </footer>
+    <script src="script.js"></script>
+</body>
+</html>
